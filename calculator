@@ -1,0 +1,53 @@
+#Напишите простой калькулятор, который считывает с пользовательского ввода три строки: 
+#первое число, второе число и операцию, после чего применяет операцию к введённым числам ("первое число" "операция" "второе число") и выводит результат на экран.
+
+x=float(input())
+y=float(input())
+o=input()
+r=0
+if y!=0:
+    if o=='+':
+        r=x+y
+        print(r)
+    elif o=='-':
+        r=x-y
+        print(r)
+    elif o=='*':
+        r=x*y
+        print(r)
+    elif o=='/':
+        r=x/y
+        print(r)
+    elif o=='mod':
+        r=x%y
+        print(r)
+    elif o=='pow':
+        r=x**y
+        print(r)
+    elif o=='div':
+        r=x//y
+        print(r)
+
+else:
+    if o=='+':
+        r=x+y
+        print(r)
+    elif o=='-':
+        r=x-y
+        print(r)
+    elif o=='*':
+        r=x*y
+        print(r)
+    elif o=='/':
+        print('Деление на 0!')
+    elif o=='mod':
+        print('Деление на 0!')
+    elif o=='pow':
+        r=x**y
+        print(r)
+    elif o=='div':
+        print('Деление на 0!')
+
+
+
+
